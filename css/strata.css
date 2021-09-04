@@ -20,28 +20,11 @@ img{
     max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6{
+h2{
     color: #787878;
     font-weight: normal;
-    margin: 1em 0 1em;
-}
-h1{
-    font-size: 36px;
-}
-h2{
-    font-size: 30;
-}
-h3{
-    font-size: 20px;
-}
-h4{
-    font-size: 18px;
-}
-h5{
-    font-size: 15px;
-}
-h6{
-    font-size: 12px;
+    margin: 0 0 1em;
+    font-size: 40;
 }
 
 sub, sup{
@@ -145,19 +128,20 @@ li{
 }
 .copyright{
     padding-top: 0;
-    list-style: none;
-    font-size: 13px;
+    font-size: 25px;
+    color: white;
+    /*list-style: none;*/
 }
 
-.copyright li {
+/*.copyright li {
     display: inline-block;
 }
 
 .copyright a{
-    color: inherit;
-}
-.copyright a:hover{
-    color: #49bf9d;
+    color: white;
+}*/
+.copyright:hover{
+    color: rgb(255, 93, 182);
 }
 
 /* Grid */
@@ -193,19 +177,37 @@ li{
 }
 
 .main-header-img{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    border: 2px solid #ccc;
 }
 
 .imagem-link{
     border: 0;
     
 }
+.recente-works-card{
+    margin-bottom: 1em;
+    height: 370px;
+    background: rgba(233, 232, 232, 0.404);
+    border-radius: 10px 10px 0 0;
+    border: 1px solid rgba(226, 226, 226, 0.747);
+    box-shadow: 0 2px 2px #ccc;
+}
 .recente-works-img{
+    width: 400px;
+    height: 200px;
     border-radius: 10px;
     overflow: hidden;
 }
 .recente-works-card-title{
+    font-size: 18px;
+    padding-left: 10px;
     margin-top: 15px;
+}
+.recente-works-card-texto{
+    padding: 0 10px;
 }
 
 .gallery-img img{
@@ -306,7 +308,7 @@ li{
     width: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
-    background-image: url(../images/images/overlay.png), url(../images/bg.jpg);
+    background-image: url(../images/images/overlay.png), url(../images/cup-of-coffee-1280537_640.jpg);
     background-position: left top;
     background-size: auto, cover;
     text-align: right;
@@ -316,7 +318,7 @@ li{
     font-size: 22px;
     line-height: 1.5;
     font-weight: normal;
-    color: rgba(255,255,255, .5)
+    color: rgba(255, 255, 255, 0.671)
 }
 
 .main-header-title strong{
@@ -334,7 +336,7 @@ li{
 .main-content{
     width: 65%;
     margin-left: 35%;
-    padding: 124px 54px 72px;
+    padding: 30px 54px 72px;
     box-sizing: border-box;
 
 }

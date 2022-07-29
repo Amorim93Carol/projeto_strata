@@ -5,17 +5,25 @@ a{
     color: rgb(117, 117, 117);
     transition: color .2s linear, border .5s linear;
     text-decoration: none;
-    border-bottom: 1px dotted;
-    
+    /* border-bottom: 1px dotted; */
 }
-a:hover{
+.copyright:hover{
     color: rgb(255, 93, 182);
     border-bottom-color: transparent;
 }
+.siteQC{
+    color: rgb(155, 155, 155);
+    border-bottom: 1px dotted;
+}
+.siteQC:hover {
+    color: rgb(255, 93, 182);
+    border-bottom-color: transparent;
+}
+/* a:hover{
+    color: rgb(255, 93, 182);
+    border-bottom-color: transparent;
+} */
 
-/*p{
-    margin: 0 0 2em;
-}*/
 .cargo{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.671);
@@ -35,7 +43,7 @@ h2{
 
 blockquote{
     border-left: 5px solid #efefef;
-    margin: 2em 0;
+    margin: 4em 0;
     padding: .5em 0 .5em 1.5em;
 }
 
@@ -52,6 +60,7 @@ blockquote{
     padding: 0;
     font-size: 32px;
     color: white;
+    border-bottom: 1px dotted;
 } 
 
 .copyright:hover{
@@ -93,7 +102,9 @@ blockquote{
     margin-top: 15px;
 }
 .recente-works-card-texto{
+    height: 55px;
     padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .main-header{
@@ -131,8 +142,9 @@ blockquote{
 
 .icon{
     font-size: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
+
 
 .tooltip {
     position: relative;
@@ -141,11 +153,11 @@ blockquote{
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
-    background-color: black;
+    width: 85px;
+    background-color: rgba(39, 39, 39, 0.911);
     color: #fff;
     text-align: center;
-    padding: 5px 0;
+    padding: 3px 0;
     border-radius: 6px;
    
 /* Position the tooltip text */
@@ -154,4 +166,15 @@ blockquote{
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+.iconTec{
+    margin: 10px;
+    font-size: 20px;
+}
+.spanTec{
+    color: rgb(110, 110, 110);
+}
+.buttomStart{
+    margin-left: 95%;
+    font-size: 50px;
 }

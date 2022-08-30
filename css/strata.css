@@ -174,7 +174,35 @@ blockquote{
 .spanTec{
     color: rgb(110, 110, 110);
 }
+
 .buttomStart{
-    margin-left: 95%;
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid red;
     font-size: 50px;
+}
+.buttomStart-link{
+    background-color: rgb(51, 50, 50);
+    border-radius: 5em;
+    /* border: 0;
+    border: 3px solid red; */
+    outline: none;
+    padding: 0 0 1px 0;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 150ms cubic-bezier(.175, .885, .32, 1.275);
+
+}
+.buttomStart-link::before{
+    background-color: rgb(255, 0, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px blue;
+    content: '';
+    height: 40%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0, .75em, -1em);
+    transition: all 150ms cubic-bezier(.175, .885, .32, 1.275);
+    width: 100%;
 }

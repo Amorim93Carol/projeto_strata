@@ -1,6 +1,6 @@
 body{
-    color: #666;
-}
+    color: rgb(29, 28, 28);
+} 
 a{
     color: rgb(117, 117, 117);
     transition: color .2s linear, border .5s linear;
@@ -8,6 +8,7 @@ a{
     /* border-bottom: 1px dotted; */
 }
 
+/* loading */
 .loading{
     margin: auto;
     margin-top: 30px;
@@ -25,10 +26,6 @@ a{
     }
 }
 
-.copyright:hover{
-    color: rgb(255, 93, 182);
-    border-bottom-color: transparent;
-}
 .siteQC{
     color: rgb(155, 155, 155);
     border-bottom: 1px dotted;
@@ -43,8 +40,8 @@ a{
 } */
 
 .cargo{
-    font-size: 20px;
     color: rgba(255, 255, 255, 0.671);
+    font-size: 20px;
     margin-top: -20px;
 }
 
@@ -82,7 +79,7 @@ blockquote{
 } 
 
 .copyright:hover{
-    color: rgb(255, 93, 182);
+    color: rgb(8, 8, 8);
 } /* hover do nome/link */
 
 /* Grid */
@@ -199,7 +196,8 @@ blockquote{
     --color-border: #929292;
     --color-dark: #929292;
     --color-text: #929292;
-    --color-hover: rgba(255, 93, 182, 0.75);
+    --color-hover: rgba(54, 54, 54, 0.788);
+   /* --color-hover: rgba(255, 93, 182, 0.75); */
 }
 
 /* Button Up */
